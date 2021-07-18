@@ -162,7 +162,8 @@ AlurakutMenu.Logo = styled.img`
   height: 34px;
 `;
 
-function AlurakutMenuProfileSidebar({ githubUser }) {
+function AlurakutMenuProfileSidebar(propriedades) {
+  const githubUser = 'walysson-silva'
   return (
     <div className="alurakutMenuProfileSidebar">
       <div>
